@@ -1,0 +1,457 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aden"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:2:5-66
+15-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+16-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:3:5-75
+16-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:3:22-73
+17    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+17-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:4:5-74
+17-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:4:22-72
+18    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+18-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:5:5-74
+18-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:5:22-72
+19    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+19-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:6:5-72
+19-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:6:22-70
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:7:5-67
+20-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:7:22-65
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:8:5-76
+21-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:8:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:9:5-77
+22-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:9:22-74
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:10:5-70
+23-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:10:22-68
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:11:5-80
+24-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:11:22-78
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:12:5-79
+25-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:12:22-77
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:13:5-64
+26-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:13:22-62
+27    <uses-permission
+27-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:14:5-15:58
+28        android:name="android.permission.READ_CONTACTS"
+28-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:14:22-69
+29        android:usesPermissionFlags="neverForLocation" />
+29-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:15:9-55
+30    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+30-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:16:5-72
+30-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:16:22-69
+31    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+31-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:17:5-74
+31-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:17:22-71
+32    <!--
+33 Required to query activities that can process text, see:
+34         https://developer.android.com/training/package-visibility and
+35         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+36
+37         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+38    -->
+39    <queries>
+39-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:56:5-61:15
+40        <intent>
+40-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:57:9-60:18
+41            <action android:name="android.intent.action.PROCESS_TEXT" />
+41-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:58:13-72
+41-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:58:21-70
+42
+43            <data android:mimeType="text/plain" />
+43-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:59:13-50
+43-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:59:19-48
+44        </intent>
+45        <intent>
+45-->[:file_picker] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-12:18
+46            <action android:name="android.intent.action.GET_CONTENT" />
+46-->[:file_picker] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-72
+46-->[:file_picker] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/file_picker/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:21-69
+47
+48            <data android:mimeType="*/*" />
+48-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:59:13-50
+48-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:59:19-48
+49        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+50        <package android:name="com.android.chrome" />
+50-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:13:9-54
+50-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:13:18-51
+51    </queries>
+52
+53    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Include required permissions for Google Maps API to run. -->
+53-->[:flutter_local_notifications] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/flutter_local_notifications/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-66
+53-->[:flutter_local_notifications] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/flutter_local_notifications/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-63
+54    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+54-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+54-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+55
+56    <uses-feature
+56-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+57        android:glEsVersion="0x00020000"
+57-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+58        android:required="true" />
+58-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+59
+60    <permission
+60-->[androidx.core:core:1.15.0] /Users/sahelys/.gradle/caches/transforms-4/031690023b35a5cf13e5b22587ef503e/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+61        android:name="com.example.aden.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+61-->[androidx.core:core:1.15.0] /Users/sahelys/.gradle/caches/transforms-4/031690023b35a5cf13e5b22587ef503e/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+62        android:protectionLevel="signature" />
+62-->[androidx.core:core:1.15.0] /Users/sahelys/.gradle/caches/transforms-4/031690023b35a5cf13e5b22587ef503e/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+63
+64    <uses-permission android:name="com.example.aden.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+64-->[androidx.core:core:1.15.0] /Users/sahelys/.gradle/caches/transforms-4/031690023b35a5cf13e5b22587ef503e/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+64-->[androidx.core:core:1.15.0] /Users/sahelys/.gradle/caches/transforms-4/031690023b35a5cf13e5b22587ef503e/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+65
+66    <application
+67        android:name="android.app.Application"
+68        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+68-->[androidx.core:core:1.15.0] /Users/sahelys/.gradle/caches/transforms-4/031690023b35a5cf13e5b22587ef503e/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+69        android:debuggable="true"
+70        android:extractNativeLibs="false"
+71        android:icon="@mipmap/launcher_icon"
+72        android:label="aden" >
+73        <activity
+74            android:name="com.example.aden.MainActivity"
+75            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+76            android:exported="true"
+77            android:hardwareAccelerated="true"
+78            android:launchMode="singleTop"
+79            android:taskAffinity=""
+80            android:theme="@style/LaunchTheme"
+81            android:windowSoftInputMode="adjustResize" >
+82
+83            <!--
+84                 Specifies an Android theme to apply to this Activity as soon as
+85                 the Android process has started. This theme is visible to the user
+86                 while the Flutter UI initializes. After that, this theme continues
+87                 to determine the Window background behind the Flutter UI.
+88            -->
+89            <meta-data
+90                android:name="io.flutter.embedding.android.NormalTheme"
+91                android:resource="@style/NormalTheme" />
+92
+93            <intent-filter>
+94                <action android:name="android.intent.action.MAIN" />
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+97            </intent-filter>
+98        </activity>
+99        <!--
+100             Don't delete the meta-data below.
+101             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+102        -->
+103        <meta-data
+104            android:name="flutterEmbedding"
+105            android:value="2" />
+106
+107        <provider
+107-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:9-17:20
+108            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+108-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-82
+109            android:authorities="com.example.aden.flutter.image_provider"
+109-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-74
+110            android:exported="false"
+110-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:12:13-37
+111            android:grantUriPermissions="true" >
+111-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:13:13-47
+112            <meta-data
+112-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:13-16:75
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:17-67
+114                android:resource="@xml/flutter_image_picker_file_paths" />
+114-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:17-72
+115        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+116        <service
+116-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:9-31:19
+117            android:name="com.google.android.gms.metadata.ModuleDependencies"
+117-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-78
+118            android:enabled="false"
+118-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:13-36
+119            android:exported="false" >
+119-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:22:13-37
+120            <intent-filter>
+120-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:24:13-26:29
+121                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+121-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:17-94
+121-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:25:25-91
+122            </intent-filter>
+123
+124            <meta-data
+124-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:28:13-30:36
+125                android:name="photopicker_activity:0:required"
+125-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:29:17-63
+126                android:value="" />
+126-->[:image_picker_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/image_picker_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:30:17-33
+127        </service>
+128
+129        <activity
+129-->[:url_launcher_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-11:74
+130            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+130-->[:url_launcher_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-74
+131            android:exported="false"
+131-->[:url_launcher_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-37
+132            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+132-->[:url_launcher_android] /Users/sahelys/AndroidStudioProjects/solidar/aden/build/url_launcher_android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:13-71
+133        <activity
+133-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:17:9-20:57
+134            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+134-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:18:13-76
+135            android:exported="false"
+135-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:19:13-37
+136            android:theme="@style/StripeDefaultTheme" />
+136-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:20:13-54
+137        <activity
+137-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:21:9-24:57
+138            android:name="com.stripe.android.view.PaymentMethodsActivity"
+138-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:22:13-74
+139            android:exported="false"
+139-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:23:13-37
+140            android:theme="@style/StripeDefaultTheme" />
+140-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:24:13-54
+141        <activity
+141-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:25:9-28:57
+142            android:name="com.stripe.android.view.PaymentFlowActivity"
+142-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:26:13-71
+143            android:exported="false"
+143-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:27:13-37
+144            android:theme="@style/StripeDefaultTheme" />
+144-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:28:13-54
+145        <activity
+145-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:29:9-33:58
+146            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+146-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:30:13-78
+147            android:exported="false"
+147-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:31:13-37
+148            android:theme="@style/StripeDefaultTheme"
+148-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:32:13-54
+149            android:windowSoftInputMode="adjustResize" />
+149-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:33:13-55
+150        <activity
+150-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:34:9-37:61
+151            android:name="com.stripe.android.view.PaymentRelayActivity"
+151-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:35:13-72
+152            android:exported="false"
+152-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:36:13-37
+153            android:theme="@style/StripeTransparentTheme" />
+153-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:37:13-58
+154        <!--
+155        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+156        launched the browser Activity will also handle the return URL deep link.
+157        -->
+158        <activity
+158-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:43:9-60:20
+159            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+159-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:44:13-85
+160            android:exported="true"
+160-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:45:13-36
+161            android:launchMode="singleTask"
+161-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:46:13-44
+162            android:theme="@style/StripeTransparentTheme" >
+162-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:47:13-58
+163            <intent-filter>
+163-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:48:13-59:29
+164                <action android:name="android.intent.action.VIEW" />
+164-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:49:17-69
+164-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:49:25-66
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:51:17-76
+166-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:51:27-73
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:52:17-78
+167-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:52:27-75
+168
+169                <!-- Must match `DefaultReturnUrl#value`. -->
+170                <data
+170-->/Users/sahelys/AndroidStudioProjects/solidar/aden/android/app/src/main/AndroidManifest.xml:59:13-50
+171                    android:host="payment_return_url"
+172                    android:path="/com.example.aden"
+173                    android:scheme="stripesdk" />
+174            </intent-filter>
+175        </activity>
+176        <activity
+176-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:61:9-64:57
+177            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+177-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:62:13-114
+178            android:exported="false"
+178-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:63:13-37
+179            android:theme="@style/StripeDefaultTheme" />
+179-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:64:13-54
+180        <activity
+180-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:65:9-68:69
+181            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+181-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:66:13-80
+182            android:exported="false"
+182-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:67:13-37
+183            android:theme="@style/StripePaymentSheetDefaultTheme" />
+183-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:68:13-66
+184        <activity
+184-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:69:9-72:69
+185            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+185-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:70:13-82
+186            android:exported="false"
+186-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:71:13-37
+187            android:theme="@style/StripePaymentSheetDefaultTheme" />
+187-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:72:13-66
+188        <activity
+188-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:73:9-76:66
+189            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+189-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:74:13-88
+190            android:exported="false"
+190-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:75:13-37
+191            android:theme="@style/StripeGooglePayDefaultTheme" />
+191-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:76:13-63
+192        <activity
+192-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:77:9-80:66
+193            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+193-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:78:13-90
+194            android:exported="false"
+194-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:79:13-37
+195            android:theme="@style/StripeGooglePayDefaultTheme" />
+195-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:80:13-63
+196        <activity
+196-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:81:9-84:66
+197            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+197-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:82:13-103
+198            android:exported="false"
+198-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:83:13-37
+199            android:theme="@style/StripeGooglePayDefaultTheme" />
+199-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:84:13-63
+200        <activity
+200-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:85:9-88:57
+201            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+201-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:86:13-107
+202            android:exported="false"
+202-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:87:13-37
+203            android:theme="@style/StripeDefaultTheme" />
+203-->[com.stripe:payments-core:17.1.1] /Users/sahelys/.gradle/caches/transforms-4/794f9208f8e770b99f31a18b6b31d1d3/transformed/jetified-payments-core-17.1.1/AndroidManifest.xml:88:13-54
+204
+205        <uses-library
+205-->[androidx.window:window:1.2.0] /Users/sahelys/.gradle/caches/transforms-4/fb5db9cceeea7da3038ab30118a50353/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+206            android:name="androidx.window.extensions"
+206-->[androidx.window:window:1.2.0] /Users/sahelys/.gradle/caches/transforms-4/fb5db9cceeea7da3038ab30118a50353/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+207            android:required="false" />
+207-->[androidx.window:window:1.2.0] /Users/sahelys/.gradle/caches/transforms-4/fb5db9cceeea7da3038ab30118a50353/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+208        <uses-library
+208-->[androidx.window:window:1.2.0] /Users/sahelys/.gradle/caches/transforms-4/fb5db9cceeea7da3038ab30118a50353/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+209            android:name="androidx.window.sidecar"
+209-->[androidx.window:window:1.2.0] /Users/sahelys/.gradle/caches/transforms-4/fb5db9cceeea7da3038ab30118a50353/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+210            android:required="false" />
+210-->[androidx.window:window:1.2.0] /Users/sahelys/.gradle/caches/transforms-4/fb5db9cceeea7da3038ab30118a50353/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+211
+212        <activity
+212-->[com.stripe:stripe-3ds2-android:6.1.1] /Users/sahelys/.gradle/caches/transforms-4/281505f062b0019f4ffdd910a58dcaec/transformed/jetified-stripe-3ds2-android-6.1.1/AndroidManifest.xml:10:9-13:54
+213            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+213-->[com.stripe:stripe-3ds2-android:6.1.1] /Users/sahelys/.gradle/caches/transforms-4/281505f062b0019f4ffdd910a58dcaec/transformed/jetified-stripe-3ds2-android-6.1.1/AndroidManifest.xml:11:13-81
+214            android:exported="false"
+214-->[com.stripe:stripe-3ds2-android:6.1.1] /Users/sahelys/.gradle/caches/transforms-4/281505f062b0019f4ffdd910a58dcaec/transformed/jetified-stripe-3ds2-android-6.1.1/AndroidManifest.xml:12:13-37
+215            android:theme="@style/Stripe3DS2Theme" /> <!-- Needs to be explicitly declared on P+ -->
+215-->[com.stripe:stripe-3ds2-android:6.1.1] /Users/sahelys/.gradle/caches/transforms-4/281505f062b0019f4ffdd910a58dcaec/transformed/jetified-stripe-3ds2-android-6.1.1/AndroidManifest.xml:13:13-51
+216        <uses-library
+216-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+217            android:name="org.apache.http.legacy"
+217-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+218            android:required="false" />
+218-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sahelys/.gradle/caches/transforms-4/b49ee4f1d2df6e8aad6682f2d9ae1192/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+219
+220        <activity
+220-->[com.google.android.gms:play-services-base:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/e44ff9c56f00a1b16d84f96a5da4813c/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+221            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+221-->[com.google.android.gms:play-services-base:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/e44ff9c56f00a1b16d84f96a5da4813c/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-base:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/e44ff9c56f00a1b16d84f96a5da4813c/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+223-->[com.google.android.gms:play-services-base:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/e44ff9c56f00a1b16d84f96a5da4813c/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+224
+225        <meta-data
+225-->[com.google.android.gms:play-services-basement:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/01be7d9a7f4ba9f691068fc397077509/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+226            android:name="com.google.android.gms.version"
+226-->[com.google.android.gms:play-services-basement:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/01be7d9a7f4ba9f691068fc397077509/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+227            android:value="@integer/google_play_services_version" />
+227-->[com.google.android.gms:play-services-basement:17.5.0] /Users/sahelys/.gradle/caches/transforms-4/01be7d9a7f4ba9f691068fc397077509/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+228
+229        <provider
+229-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+230            android:name="androidx.startup.InitializationProvider"
+230-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+231            android:authorities="com.example.aden.androidx-startup"
+231-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+232            android:exported="false" >
+232-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+233            <meta-data
+233-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+234                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+234-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+235                android:value="androidx.startup" />
+235-->[androidx.emoji2:emoji2:1.3.0] /Users/sahelys/.gradle/caches/transforms-4/8a42c3d1adfc5933702234111e31ac17/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+236            <meta-data
+236-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sahelys/.gradle/caches/transforms-4/904e65b1c9df8a592a890c78a2619f40/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+237                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+237-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sahelys/.gradle/caches/transforms-4/904e65b1c9df8a592a890c78a2619f40/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+238                android:value="androidx.startup" />
+238-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sahelys/.gradle/caches/transforms-4/904e65b1c9df8a592a890c78a2619f40/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+239            <meta-data
+239-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+240                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+240-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+241                android:value="androidx.startup" />
+241-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+242        </provider>
+243
+244        <receiver
+244-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+245            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+245-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+246            android:directBootAware="false"
+246-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+247            android:enabled="true"
+247-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+248            android:exported="true"
+248-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+249            android:permission="android.permission.DUMP" >
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+250            <intent-filter>
+250-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+251                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+252            </intent-filter>
+253            <intent-filter>
+253-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+254                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+255            </intent-filter>
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+257                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+258            </intent-filter>
+259            <intent-filter>
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+260                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sahelys/.gradle/caches/transforms-4/3fda514cfb6cbfdeecac34b1065755c9/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+261            </intent-filter>
+262        </receiver>
+263    </application>
+264
+265</manifest>

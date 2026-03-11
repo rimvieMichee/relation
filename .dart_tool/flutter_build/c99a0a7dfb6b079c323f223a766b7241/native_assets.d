@@ -1,0 +1,1 @@
+ /Users/sahelys/AndroidStudioProjects/solidar/aden/.dart_tool/flutter_build/c99a0a7dfb6b079c323f223a766b7241/native_assets.yaml: 
